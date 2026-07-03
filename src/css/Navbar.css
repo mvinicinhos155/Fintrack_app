@@ -1,0 +1,164 @@
+.container_navbar {
+    width: 185px;
+    height: 100vh;
+    position: fixed;
+}
+
+.navbar {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #090B1A;
+    border-right: 1px solid rgba(255,255,255,0.05);
+}
+
+.logo_navbar {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_navbar img  {
+    width: 150px;
+}
+
+.pages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    gap: 30px;
+}
+
+
+.out {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link_navbar {
+    height: 50px;
+    width: 150px;
+    background-color: transparent;
+    color: rgb(179, 179, 179);
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.9s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    text-decoration: none;
+}
+
+.link_navbar:hover {
+    background: #6e47d8cb;
+    transition: all 0.9s;
+}
+
+.link_navbar.ativo {
+    color: rgb(204, 168, 252);
+    background: #6e47d8cb;
+    border-radius: 8px;
+}
+
+#link_navbar {
+    margin-top: auto;
+}
+
+.content {
+    margin-left: 180px; 
+}
+
+/* navbarextrato*/
+
+.container_NavbarExtrato {
+    width: 100%;
+    height: 150px;
+}
+
+.logo_extrato  {
+    width: 100%;
+    height: 70px;
+    display: none;  
+}
+
+.fintrack {
+    width: 280px;
+    height: 100%;
+}
+
+#sair {
+    display: flex;
+    margin-left: auto;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.fintrack img {
+    height: 100%;
+    display: flex;
+    margin-left: auto;
+}
+
+.pages_extrato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    gap: 30px;
+    border-bottom: 1px solid rgba(92, 92, 92, 0.619);
+}
+
+#border:hover  {
+    transition: all 0.9s;
+}
+
+@media(max-width: 430px) {
+    .container_navbar {
+        display: none;
+    }
+
+    .content {
+        margin-left: 0px; 
+    }
+
+    .container_NavbarExtrato {
+        width: 100%;
+    }
+
+    .logo_extrato  {
+        display: flex;  
+    }
+
+    .pages_extrato {
+        height: 70px;
+        gap: 5px;
+    }
+
+    #border  {
+        border-bottom: 1px solid rgba(92, 92, 92, 0.619);
+        transition: all 0.9s;
+        width: 100px;
+        height: 35px;
+        font-size: 13px;
+    }  
+    
+    .out_mobile {
+        width: 100px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        color: rgb(168, 168, 168);
+        transition: all 0.9s;
+    }
+
+    .out_mobile:hover {
+        color: rgba(168, 168, 168, 0.5);
+    }
+}

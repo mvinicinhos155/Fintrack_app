@@ -1,0 +1,190 @@
+.container_cadastro {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(
+        180deg,
+    #050816 0%,
+    #02030C 100%
+    );
+    font-family: "Datatype", monospace;
+    opacity: 0;
+    transition: opacity 0.15s ease;
+}
+
+.container_cadastro.show {
+    opacity: 1;
+}
+
+.left-cadastro {
+    background-image: url(../assets//imgM.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+
+.right-cadastro {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.nav-cadastro {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.nav-cadastro img {
+    width: 200px;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    padding: 40px;
+}
+
+.form-div h2 {
+    color: white;
+    margin-bottom: 17px;
+    font-size: 40px;
+}
+
+.form-div p {
+    color: rgb(161, 160, 160);
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.form-cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height:405px;
+}
+
+.form-cadastro input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 50px;
+    padding: 25px;
+    border-radius: 50px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid #A855F7;
+}
+
+#caracteres {
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+    width: 100%;
+    padding: 5px;
+}
+
+#error_cadastro {
+    color: rgb(153, 153, 153);
+    width: 600px;
+}
+
+.form-cadastro button {
+    margin-top: 50px;
+    width: 100%;
+    height: 40px;
+    background-color: #7C3AED;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 700;
+    transition: all 0.9s;
+}
+
+.form-cadastro button:hover {
+    background-color: #A855F7;
+    transition: all 0.9s;
+}
+
+#link {
+    color: white;
+    margin-top: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.9s;
+}
+
+#link:hover {
+    color: rgb(160, 160, 160);
+    transition: all 0.9s;
+    transform: scale(1.09);
+}
+
+@media(max-width: 430px)  {
+    .container_cadastro {
+        width: 100%;
+        min-height: 100dvh;
+    }
+
+    .left-cadastro {
+        display: none;
+    }
+
+    .right-cadastro {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .nav-cadastro {
+        width: 100%;
+    }
+
+    .form-div {
+        width: 100%;
+        max-width: 430px;
+        background-color: transparent;
+    }
+
+    #caracteres {
+        font-size: 12px;
+    }
+
+    #error_cadastro {
+        width: 160px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    #text_cadastro {
+        font-size: 23px;
+        margin-bottom: 0px;
+    }
+
+    #parag_cadastro {
+        font-size: 16px;
+    }
+
+    .form-cadastro {
+        width: 100%;
+    }
+
+    .form-cadastro input,
+    .form-cadastro button,
+    #link {
+        width: 100%;
+
+    }
+
+    #link {
+        text-align: center;
+    }
+    
+}

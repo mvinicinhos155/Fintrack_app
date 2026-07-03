@@ -1,0 +1,391 @@
+.div_center {
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container_dashboard {
+    padding: 0px;
+    margin: 0px; 
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 100px;
+    width: 100%;
+    color: white;
+}
+
+.into h2 {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.me {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 21px;
+}
+
+.me span {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.none {
+    display: none;
+}
+
+.navlinks {
+    background-color: #26283b;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    gap: 5px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.link_mobile {
+    width: 80px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.link_mobile:hover {
+    transition: all 0.9s;
+    background-color: #13141d;
+}
+
+#navLink {
+    color: white;
+    text-decoration: none;
+}
+
+#notification {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#notification:hover {
+    color: rgb(146, 146, 146);
+}
+
+.dashboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.track {
+    margin-top: 30px;
+    width: 780px;
+    height: 398px;
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid rgba(156, 156, 156, 0.123);
+    flex-direction: column;
+    background-image: url(../assets/card.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.saldo {
+    color: white;
+    margin-top: 30px;
+    padding-left: 40px; 
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.saldo span {
+    color: rgb(150, 149, 149);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.saldo h2 {
+    margin-top: 10px;
+    font-size: 45px;
+}
+
+.eye {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.eye button {
+    cursor: pointer;
+    background-color: transparent;
+    display: flex;
+    text-align: center;
+    border: none;
+    color: rgb(150, 149, 149);
+    font-size: 17px;  
+    transition: all 0.9s;
+}
+
+.eye button:hover {
+    color: rgba(150, 149, 149, 0.507);
+}
+
+.rendimento {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-left: 40px;
+    height: 100px;
+}
+
+.trask_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 28px;
+    gap: 20px;
+}
+
+.link_dashboard {
+    height: 70px;
+    width: 150px;
+    background-color: transparent;
+    color: rgb(179, 179, 179);
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.9s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    text-decoration: none;
+}
+
+.link_dashboard:hover {
+    background: #6e47d8cb;
+    transition: all 0.9s;
+}
+
+.link_dashboard.ativo {
+    color: rgb(204, 168, 252);
+    background: #6e47d8cb;
+    border-radius: 8px;
+}
+
+.extrato {
+    width: 500px;
+    height: 400px;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid rgba(156, 156, 156, 0.123);
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px 0px rgba(146, 94, 201, 0.212);
+    color: white;
+}
+
+.extrato h1 {
+    margin-bottom: 20px;
+}
+
+.noExtrato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.ex {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    cursor: pointer;
+    padding: 5px;
+    transition: all 0.9s;
+    gap: 4px;
+    border-radius: 8px;
+}
+
+.ex:hover {
+    background-color: rgba(146, 94, 201, 0.212);
+    transition: all 0.9s;
+}
+
+.button_extrato {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_extrato button {
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.button_extrato button:hover {
+    transform: scale(1.02);
+}
+
+#extrato {
+    color: white;
+    text-decoration: none;
+}
+
+.grafico {
+    background: rgba(255,255,255,0.02);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    backdrop-filter: blur(15px);
+}
+
+.title_grafico {
+    color: white;
+    padding: 20px;
+    gap: 3px;
+    margin-bottom: 10px;
+}
+
+@media(max-width: 430px) {
+
+    .div_center {
+        width: 100%;
+    }
+
+    .top{
+        height:auto;
+        gap:45px;
+        justify-content: center;
+        border-bottom: 1px solid rgba(167, 167, 167, 0.5);
+    }
+
+    .into {
+        padding: 0px;
+        width: 190px;
+    }
+
+    #title_dashboard {
+        font-size: 18px;
+    }
+
+    #parag_dashboard {
+        font-size: 15px;
+    }
+
+    .me {
+        width: 100px;
+    }
+
+    #notification {
+        display: none;
+    }
+
+    .me span {
+        font-size: 16px;
+    }
+
+    .none {
+        display: flex;
+    }
+
+
+    .dashboard{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .track{
+        width:100%;
+        height:300px;
+        min-height:200px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: 0px;
+        background-image: url(../assets//card_mobile.png);
+    }
+
+    .saldo {
+        margin-top: 10px;
+        padding-left: 10px;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    } 
+
+    .saldo span {
+        color: rgb(214, 211, 211);
+        display: flex;
+        gap: 6px;
+    }
+
+    #saldoFormatado {
+        margin-top: 10px;
+        font-size: 24px;
+        height: 40px;
+    }
+
+    .trask_button{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        gap:12px;
+        padding:20px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .link_dashboard{
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .rendimento{
+        width: 100%;
+    }
+
+    .saldo h2{
+        font-size:36px;
+    }
+
+    .extrato {
+        width: 100%;
+    }
+
+    .extrato h1 {
+        font-size: 21px;
+    }
+
+    .grafico{
+        display: none;
+    }
+}
