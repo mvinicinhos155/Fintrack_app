@@ -73,7 +73,7 @@ React + Vite
 Clone o repositório
 
 ```bash
-git clone https://github.com/SEU-USUARIO/fintrack.git
+git clone https://github.com/mvinicinhos155/Fintrack_app.git
 ```
 
 Entre na pasta
