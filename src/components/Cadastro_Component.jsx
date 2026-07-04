@@ -31,7 +31,7 @@ function CadastroComponent() {
 
             setErro("");
 
-            const response = await fetch("http://localhost:3000/create/user", {
+            const response = await fetch("https://fintrack-backend-26qa.onrender.com/create/user", {
                 method: "POST",
                 headers: { "Content-Type" : "application/json" },
                 body: JSON.stringify({

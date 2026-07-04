@@ -28,7 +28,7 @@ function DashboardComponent() {
     }
 
     const getUser = async () => {
-      const response = await fetch("http://localhost:3000/find/user", {
+      const response = await fetch("https://fintrack-backend-26qa.onrender.com/find/user", {
         method: "GET",
         headers: { Authorization: `Bearer ${token}` },
       });
@@ -39,7 +39,7 @@ function DashboardComponent() {
 
     //pegar extrato
     const getExtrato = async () => {
-      const response = await fetch("http://localhost:3000/find/trasition", {
+      const response = await fetch("https://fintrack-backend-26qa.onrender.com/find/trasition", {
         method: "GET",
         headers: { Authorization: `Bearer ${token}` },
       });

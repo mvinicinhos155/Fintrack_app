@@ -29,7 +29,7 @@ function LoginComponent() {
 
             setErro("");
 
-            const response = await fetch("http://localhost:3000/login", {
+            const response = await fetch("https://fintrack-backend-26qa.onrender.com/login", {
                 method: "POST",
                 headers: { "Content-Type" : "application/json" },
                 body: JSON.stringify({

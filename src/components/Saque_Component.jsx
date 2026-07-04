@@ -48,7 +48,7 @@ function SaqueComponent() {
       throw new Error("Erro ao pegar token");
     }
 
-    const response = await fetch("http://localhost:3000/withdraw", {
+    const response = await fetch("https://fintrack-backend-26qa.onrender.com/withdraw", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -19,7 +19,7 @@ function DepositoComponent ()  {
             }
 
         const getExtrato = async () => {
-            const response = await fetch("http://localhost:3000/find/trasition", {
+            const response = await fetch("https://fintrack-backend-26qa.onrender.com/find/trasition", {
                 headers: { "Authorization" : `Bearer ${token}`}
             });
 

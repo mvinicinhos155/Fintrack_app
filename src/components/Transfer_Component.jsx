@@ -50,7 +50,7 @@ function TransferComponent() {
             throw new Error("Não Autorizado");
           }
         
-        const response = await fetch("http://localhost:3000/transfer", {
+        const response = await fetch("https://fintrack-backend-26qa.onrender.com/transfer", {
           method: "POST",
           headers: { "Content-type" : "application/json", "Authorization" : `Bearer ${token}`},
           body: JSON.stringify({
