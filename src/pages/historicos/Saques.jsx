@@ -1,6 +1,6 @@
 import SaqueComponent from "../../components/extratos/Saque_component";
 
-function Saques () {
+function ExtratoSaques () {
     return (
         <>
             <SaqueComponent/>
@@ -8,4 +8,4 @@ function Saques () {
     )
 }
 
-export default Saques;
+export default ExtratoSaques;

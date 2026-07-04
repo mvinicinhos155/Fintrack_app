@@ -6,7 +6,7 @@ import Transferencia from "./pages/Transferêcia.jsx"
 import ProtectedRoute from "./routes/ProtectedRoute.jsx"
 import Extrato from "./pages/Extrato.jsx"
 import Layout from "./Layout/Layout.jsx"
-import Saques from "./pages/historicos/Saques.jsx"
+import ExtratoSaques from "./pages/historicos/Saques.jsx"
 import Depositos from "./pages/historicos/Depositos.jsx"
 import LayoutExtrato from "./Layout/LayoutExtrato.jsx"
 import Transferencias from "./pages/historicos/Transferencias.jsx"
@@ -30,7 +30,7 @@ function App() {
             <Route element={<LayoutExtrato/>}>
               <Route path="/extrato" element={<Extrato/>}/>
               <Route path="/exTransfer" element={<Transferencias/>}/>
-              <Route path="/exSaque" element={<Saques/>}/>
+              <Route path="/exSaque" element={<ExtratoSaques/>}/>
               <Route path="/exDeposito" element={<Depositos/>}/>
             </Route>
           </Route>    
