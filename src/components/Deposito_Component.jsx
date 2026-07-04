@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { FaCheckCircle } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 
-function DepositoCompoent () {
+function DepositoComponent () {
 
     const [user, setUser] = useState(null);
     const [valor, setValor] = useState("");
@@ -149,4 +149,4 @@ function DepositoCompoent () {
       );
 }
 
-export default DepositoCompoent;
+export default DepositoComponent;

@@ -1,4 +1,4 @@
-import DepositoCompoent from "../components/Deposito_Componet";
+import DepositoCompoent from "../components/Deposito_Component";
 
 function Deposito () {
     return (
