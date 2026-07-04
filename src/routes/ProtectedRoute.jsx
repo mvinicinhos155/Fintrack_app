@@ -1,5 +1,5 @@
 import { Navigate, Outlet } from "react-router-dom";
-import { jwtDecode } from "jwt-decode";
+import { jwtdecode } from "jwt-decode";
 
 function ProtectedRoute() {
     const token = localStorage.getItem("token");
@@ -9,7 +9,7 @@ function ProtectedRoute() {
     }
 
     try {
-        const decoded = jwtDecode(token);
+        const decoded = jwtdecode(token);
 
         // eslint-disable-next-line react-hooks/purity
         if(decoded.exp * 1000 < Date.now()){
@@ -18,7 +18,7 @@ function ProtectedRoute() {
         }
     } catch {
         localStorage.removeItem("token");
-        <Navigate to="/login" replace/>
+        return <Navigate to="/login" replace/>
     }
 
     return <Outlet/>
