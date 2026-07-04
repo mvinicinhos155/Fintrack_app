@@ -1,4 +1,4 @@
-import TransferenciaComponent from "../../components/extratos/Transferencia _Component"
+import TransferenciaComponent from "../../components/extratos/Transferencia_Component"
 
 function Transferencias () {
     return (
