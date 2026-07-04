@@ -1,4 +1,4 @@
-import SaqueComponent from "../../components/extratos/Saque_component";
+import SaqueComponent from "../../components/extratos/Saque_Component";
 
 function ExtratoSaques () {
     return (
